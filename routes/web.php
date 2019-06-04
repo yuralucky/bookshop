@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'BookController@index');
 Route::get('/contacts', function () {
     return view('contacts');
 });
@@ -21,10 +19,14 @@ Route::get('/image', function () {
     return view('layout1');
 });
 
-Route::get('/main', 'BookController@index');
+Route::get('/main', 'BookController@main');
 Route::get('shop_cart', function () {
     return view('shop_cart');
 });
 Route::get('/single', function () {
     return view('single');
 });
+
+Route::get('/sortPrice','BookController@sortPrice');
+Route::get('/sortName','BookController@sortName');
+Route::get('/search','BookController@search');

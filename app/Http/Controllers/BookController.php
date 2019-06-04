@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Book;
+use Barryvdh\Reflection\DocBlock;
+use DB;
 use Illuminate\Http\Request;
 
 class BookController extends Controller
@@ -14,10 +16,38 @@ class BookController extends Controller
      */
     public function index()
     {
-        $books=\DB::table('books')->paginate(15);
-        return view('main',compact('books'));
+        $latest = DB:: table('books')->paginate(4);
+//        dd($latest);
+        return view('index', compact('latest'));
     }
 
+    public function main()
+    {
+        $books = DB::table('books')->paginate(15);
+        return view('main', compact('books'));
+    }
+
+    public function sortPrice()
+    {
+        $books = DB::table('books')->orderBy('price')->paginate(15);
+        return view('main', compact('books'));
+    }
+
+
+    public function sortName()
+    {
+        $books = DB::table('books')->orderBy('title')->paginate(15);
+        return view('main', compact('books'));
+    }
+
+
+    public function search(Request $request)
+    {
+        $search=$request->get('search');
+        $books=DB::table('books')->where('title','like','%'.$search.'%')->paginate(15);
+        return view('main', compact('books'));
+
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -31,7 +61,7 @@ class BookController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -42,7 +72,7 @@ class BookController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Book  $book
+     * @param  \App\Book $book
      * @return \Illuminate\Http\Response
      */
     public function show(Book $book)
@@ -53,7 +83,7 @@ class BookController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Book  $book
+     * @param  \App\Book $book
      * @return \Illuminate\Http\Response
      */
     public function edit(Book $book)
@@ -64,8 +94,8 @@ class BookController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Book  $book
+     * @param  \Illuminate\Http\Request $request
+     * @param  \App\Book $book
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Book $book)
@@ -76,7 +106,7 @@ class BookController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Book  $book
+     * @param  \App\Book $book
      * @return \Illuminate\Http\Response
      */
     public function destroy(Book $book)

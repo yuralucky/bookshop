@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-md-12 col-lg-8">
                     <div class="title-single-box">
-                        <h1 class="title-single">Our Amazing Properties</h1>
-                        <span class="color-text-a">Grid Properties</span>
+                        <h1 class="title-single">Best Book</h1>
+                        <span class="color-text-a">“There is no friend as loyal as a book.” ― Ernest Hemingway</span>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4">
@@ -32,16 +32,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="grid-option">
-                        <form>
-                            <select class="custom-select">
-                                <option selected>All</option>
-                                <option value="1">Price asc</option>
-                                <option value="2">Price desc</option>
-                                <option value="3">Size</option>
-                            </select>
-                        </form>
-                    </div>
+                    <nav aria-label="" class=" d-flex justify-content-lg-end">
+                        <ol class="breadcrumb">
+                            <li class="justify-content-center">
+                                <a href="/sortPrice">Price Sort Asc</a>
+                            </li>
+
+                            <li class="justify-content-center">
+                                <a href="/sortName"> Sort Name</a>
+
+                            </li>
+                        </ol>
+                    </nav>
+
                 </div>
                 @foreach($books as $book)
                 <div class="col-md-4">
@@ -52,7 +55,10 @@
                             <div class="card-overlay">
                                 <div class="card-overlay-a-content">
                                     <div class="card-header-a">
-
+                                        <h2 class="card-title-a">
+                                            <a href="#">{{$book->title}}
+                                                <br /> {{$book->author}}</a>
+                                        </h2>
                                     </div>
                                     <div class="card-body-a">
                                         <div class="price-box d-flex">
