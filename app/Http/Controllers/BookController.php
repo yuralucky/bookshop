@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Book;
-use Barryvdh\Reflection\DocBlock;
+use App\Mail\DemoMail;
 use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
 
 class BookController extends Controller
 {
@@ -17,16 +18,25 @@ class BookController extends Controller
     public function index()
     {
         $latest = DB:: table('books')->paginate(4);
-//        dd($latest);
         return view('index', compact('latest'));
     }
 
+    /**
+     * Display all books
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function main()
     {
         $books = DB::table('books')->paginate(15);
         return view('main', compact('books'));
     }
 
+    /**
+     * Display books with sort by price
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function sortPrice()
     {
         $books = DB::table('books')->orderBy('price')->paginate(15);
@@ -34,6 +44,11 @@ class BookController extends Controller
     }
 
 
+    /**
+     * Display all books sort by name
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function sortName()
     {
         $books = DB::table('books')->orderBy('title')->paginate(15);
@@ -41,76 +56,39 @@ class BookController extends Controller
     }
 
 
+    /**
+     * Show result for search
+     *
+     * @param Request $request
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function search(Request $request)
     {
         $search=$request->get('search');
-        $books=DB::table('books')->where('title','like','%'.$search.'%')->paginate(15);
+        $books=DB::table('books')->where('title','like','%'.$search.'%')
+            ->orWhere('author','like','%'.$search.'%')->paginate(15);
         return view('main', compact('books'));
 
     }
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+
+    public function searchlive(Request $request)
     {
-        //
+        if($request->ajax())
+        {
+            $search=$request->get('search');
+            $books=DB::table('books')->where('title','like','%'.$search.'%')->paginate(15);
+            return view('main', compact('books'));
+
+        }
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function send(Request $request)
     {
-        //
+        $body=$request->message;
+        $from_email=$request->email;
+        $from_name=$request->name;
+        Mail::to('yuralucky83@gmail.com')->send(new DemoMail($body));
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Book $book
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Book $book)
-    {
-        //
-    }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Book $book
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Book $book)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request $request
-     * @param  \App\Book $book
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Book $book)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Book $book
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Book $book)
-    {
-        //
-    }
 }

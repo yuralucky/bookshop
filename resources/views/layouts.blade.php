@@ -91,11 +91,12 @@
                     <a class="nav-link" href="/contacts">Contact</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/shop_cart"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="/shop_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                 </li>
             </ul>
         </div>
-        <button type="submit" name="search" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block"
+        <button type="submit" name="search" id="livesearch"
+                class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block"
                 data-toggle="collapse"
                 data-target="#navbarTogglerDemo01" aria-expanded="false">
             <span class="fa fa-search" aria-hidden="true"></span>
@@ -118,9 +119,11 @@
                     </div>
                     <div class="w-body-a">
                         <p class="w-text-a color-text-a">
-                            Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo
-                            consequat duis
-                            sed aute irure.
+                            To you, our dear book gourmets, we offer a wide range of books of various genres with a
+                            variety of thematic content at affordable prices. Here you can find an impressive, valuable
+                            gift, discovering the world of exclusive leather gift editions. It is in our store you will
+                            find exciting games for both children and adults, as well as high quality office supplies.
+                            Contact us - we will always find something to interest you!
                         </p>
                     </div>
                     <div class="w-footer-a">
@@ -135,66 +138,47 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="col-sm-12 col-md-4">
                 <div class="widget-a">
                     <div class="w-header-a">
-                        <h3 class="w-title-a text-brand">The Company</h3>
+                        <h3 class="w-title-a text-brand">Feedback and comments</h3>
                     </div>
                     <div class="w-body-a">
-                        <div class="w-body-a">
-                            <ul class="list-unstyled">
-                                <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Site Map</a>
-                                </li>
-                                <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Legal</a>
-                                </li>
-                                <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Agent Admin</a>
-                                </li>
-                                <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Careers</a>
-                                </li>
-                                <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Affiliate</a>
-                                </li>
-                                <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Privacy Policy</a>
-                                </li>
-                            </ul>
-                        </div>
+                        <p class="w-text-a color-text-a">
+                            Addressing us or leaving comments on the site, you are responsible that the message is not
+                            illegal, harmful, threatening, slanderous, offends morality, violates copyrights, promotes
+                            hatred and / or discrimination of people for racial, ethnic, sexual, religious, social
+                            featured, contains insults to specific individuals or organizations, and in any other way
+                            violates the current legislation of Ukraine. You agree that you may delete the socket
+                            without your consent, and also use it at your discretion for free. The outlet is not
+                            responsible for any information posted by users of the Site.
+
+                        </p>
+                    </div>
+                    <div class="w-footer-a">
+
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="col-sm-12 col-md-4">
                 <div class="widget-a">
                     <div class="w-header-a">
-                        <h3 class="w-title-a text-brand">International sites</h3>
+                        <h3 class="w-title-a text-brand">Delivery</h3>
                     </div>
                     <div class="w-body-a">
-                        <ul class="list-unstyled">
-                            <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Venezuela</a>
-                            </li>
-                            <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">China</a>
-                            </li>
-                            <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Hong Kong</a>
-                            </li>
-                            <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Argentina</a>
-                            </li>
-                            <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Singapore</a>
-                            </li>
-                            <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Philippines</a>
-                            </li>
-                        </ul>
+                        <p class="w-text-a color-text-a">
+                            Delivery of books to any geographical point - the possibility of delivery of books of any
+                            order by our online store is limited only by the capabilities of Ukrainian and international
+                            postal and courier services. Follow our free shipping promotions, as well as other
+                            promotions and offers.
+                        </p>
+                    </div>
+                    <div class="w-footer-a">
+
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -205,17 +189,15 @@
                 <nav class="nav-footer">
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a href="#">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">About</a>
+                            <a href="/about">About</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">Property</a>
+                            <a href="/items">Items</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">Blog</a>
-                        </li>
+
                         <li class="list-inline-item">
                             <a href="#">Contact</a>
                         </li>
@@ -224,36 +206,32 @@
                 <div class="socials-a">
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://www.facebook.com/">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://twitter.com/?lang=uk">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://www.instagram.com/?hl=uk">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://www.pinterest.com/">
                                 <i class="fa fa-pinterest-p" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            </a>
-                        </li>
+
                     </ul>
                 </div>
                 <div class="copyright-footer">
                     <p class="copyright color-text-a">
                         &copy; Copyright
-                        <span class="color-a">EstateAgency</span> All Rights Reserved.
+                        <span class="color-a">BookShop</span> All Rights Reserved.
                     </p>
                 </div>
                 <div class="credits">
@@ -283,6 +261,7 @@
 
 <!-- Template Main Javascript File -->
 <script src="{{asset('js/main.js')}}"></script>
+<script src="{{asset('js/searchlive.js')}}"></script>
 
 </body>
 </html>

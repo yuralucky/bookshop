@@ -31,71 +31,74 @@
     <section class="property-grid grid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <nav aria-label="" class=" d-flex justify-content-lg-end">
-                        <ol class="breadcrumb">
-                            <li class="justify-content-center">
-                                <a href="/sortPrice">Price Sort Asc</a>
-                            </li>
+                    <div class="col-sm-12">
+                        <nav aria-label="" class=" d-flex justify-content-lg-end">
+                            <ol class="breadcrumb">
+                                <li class="justify-content-center">
+                                    <a href="/sortPrice">Price Sort Asc</a>
+                                </li>
 
-                            <li class="justify-content-center">
-                                <a href="/sortName"> Sort Name</a>
+                                <li class="justify-content-center">
+                                    <a href="/sortName"> Sort Name</a>
 
-                            </li>
-                        </ol>
-                    </nav>
+                                </li>
+                            </ol>
+                        </nav>
 
-                </div>
-                @foreach($books as $book)
-                <div class="col-md-4">
-                        <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                                <img src="img/book2.jpeg" alt="" class="img-a img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-overlay-a-content">
-                                    <div class="card-header-a">
-                                        <h2 class="card-title-a">
-                                            <a href="#">{{$book->title}}
-                                                <br /> {{$book->author}}</a>
-                                        </h2>
-                                    </div>
-                                    <div class="card-body-a">
-                                        <div class="price-box d-flex">
-                                            <span class="price-a">price | $ {{$book->price}}</span>
+                    </div>
+
+                    @foreach($books as $book)
+                        <div class="col-md-4">
+                            <div class="card-box-a card-shadow">
+                                <div class="img-box-a">
+                                    <img src="img/book2.jpeg" alt="" class="img-a img-fluid">
+                                </div>
+                                <div class="card-overlay">
+                                    <div class="card-overlay-a-content">
+                                        <div class="card-header-a">
+                                            <h2 class="card-title-a">
+                                                <a href="#">{{$book->title}}
+                                                    <br/> {{$book->author}}</a>
+                                            </h2>
                                         </div>
-                                        <a href="/single" class="link-a">Click here to view
-                                            <span class="ion-ios-arrow-forward"></span>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer-a">
-                                        <ul class="card-info d-flex justify-content-around">
-                                            <li>
-                                                <h4 class="card-info-title">Category</h4>
-                                                <span>{{$book->category}}</span>
-                                            </li>
-                                            <li>
-                                                <h4 class="card-info-title">Year</h4>
-                                                <span>{{$book->year}}</span>
-                                            </li>
-                                            <li>
-                                                <h4 class="card-info-title">Pages</h4>
-                                                <span>{{$book->pages}}</span>
-                                            </li>
-                                            <li>
-                                                <h4 class="card-info-title">language</h4>
-                                                <span>{{$book->language}}</span>
-                                            </li>
-                                        </ul>
+                                        <div class="card-body-a">
+                                            <div class="price-box d-flex">
+                                                <span class="price-a">price | $ {{$book->price}}</span>
+                                            </div>
+                                            <a href="/single" class="link-a">Click here to view
+                                                <span class="ion-ios-arrow-forward"></span>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer-a">
+                                            <ul class="card-info d-flex justify-content-around">
+                                                <li>
+                                                    <h4 class="card-info-title">Category</h4>
+                                                    <span>{{$book->category}}</span>
+                                                </li>
+                                                <li>
+                                                    <h4 class="card-info-title">Year</h4>
+                                                    <span>{{$book->year}}</span>
+                                                </li>
+                                                <li>
+                                                    <h4 class="card-info-title">Pages</h4>
+                                                    <span>{{$book->pages}}</span>
+                                                </li>
+                                                <li>
+                                                    <h4 class="card-info-title">language</h4>
+                                                    <span>{{$book->language}}</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                </div>
-                @endforeach
+                    @endforeach
             </div>
             {{ $books->links() }}
+
         </div>
     </section>
+
     <!--/ Books Grid End /-->
 @endsection

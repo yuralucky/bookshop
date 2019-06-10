@@ -87,7 +87,7 @@
                 <div class="col-md-12">
                     <div class="title-wrap d-flex justify-content-between">
                         <div class="title-box">
-                            <h2 class="title-a">Our Services</h2>
+                            <h2 class="title-a">Our advantages</h2>
                         </div>
                     </div>
                 </div>
@@ -97,22 +97,22 @@
                     <div class="card-box-c foo">
                         <div class="card-header-c d-flex">
                             <div class="card-box-ico">
-                                <span class="fa fa-gamepad"></span>
+                                <span class="fa fa-usd"></span>
                             </div>
                             <div class="card-title-c align-self-center">
-                                <h2 class="title-c">Lifestyle</h2>
+                                <h2 class="title-c">Price</h2>
                             </div>
                         </div>
                         <div class="card-body-c">
                             <p class="content-c">
-                                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien
-                                massa,
-                                convallis a pellentesque
-                                nec, egestas non nisi.
+                                Our prices are among the lowest in Ukraine, thanks to a flexible pricing policy and
+                                streamlined supply chains from publishers. We have been working in this market for a
+                                long time, we are developing together with it and we strive to become even better, more
+                                accessible and more attractive for you, our clients.
                             </p>
                         </div>
                         <div class="card-footer-c">
-                            <a href="#" class="link-c link-icon">Read more
+                            <a href="#" class="link-c link-icon">
                                 <span class="ion-ios-arrow-forward"></span>
                             </a>
                         </div>
@@ -122,22 +122,22 @@
                     <div class="card-box-c foo">
                         <div class="card-header-c d-flex">
                             <div class="card-box-ico">
-                                <span class="fa fa-usd"></span>
+                                <span class="fa fa-automobile"></span>
                             </div>
                             <div class="card-title-c align-self-center">
-                                <h2 class="title-c">Loans</h2>
+                                <h2 class="title-c">Delivery</h2>
                             </div>
                         </div>
                         <div class="card-body-c">
                             <p class="content-c">
-                                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.
-                                Mauris blandit
-                                aliquet elit, eget tincidunt
-                                nibh pulvinar a.
+                                Delivery of books to any geographical point - the possibility of delivery of books of
+                                any order by our online store is limited only by the capabilities of Ukrainian and
+                                international postal and courier services. Follow our free shipping promotions, as well
+                                as other promotions and offers.
                             </p>
                         </div>
                         <div class="card-footer-c">
-                            <a href="#" class="link-c link-icon">Read more
+                            <a href="#" class="link-c link-icon">
                                 <span class="ion-ios-arrow-forward"></span>
                             </a>
                         </div>
@@ -155,14 +155,17 @@
                         </div>
                         <div class="card-body-c">
                             <p class="content-c">
-                                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien
-                                massa,
-                                convallis a pellentesque
-                                nec, egestas non nisi.
+                                The best choice of computer literature in Ukraine: everything for programmers,
+                                webmasters, designers, Internet marketers, project managers, testers, and anyone who is
+                                involved in IT-technologies or is interested in them. Large assortment of books on
+                                electronics, electrical engineering, energy, microcontrollers, climate equipment,
+                                reference books, textbooks, monographs For beginners and professionals, from tutorials
+                                to books on highly specialized topics, bestsellers, new books in the Russian-language
+                                book market.
                             </p>
                         </div>
                         <div class="card-footer-c">
-                            <a href="#" class="link-c link-icon">Read more
+                            <a href="#" class="link-c link-icon">
                                 <span class="ion-ios-arrow-forward"></span>
                             </a>
                         </div>
@@ -560,78 +563,4 @@
     </section>
     <!--/ News End /-->
 
-    <!--/ Testimonials Star /-->
-    <section class="section-testimonials section-t8 nav-arrow-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="title-wrap d-flex justify-content-between">
-                        <div class="title-box">
-                            <h2 class="title-a">Testimonials</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="testimonial-carousel" class="owl-carousel owl-arrow">
-                <div class="carousel-item-a">
-                    <div class="testimonials-box">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <div class="testimonial-img">
-                                    <img src="{{asset('img/testimonial-1.jpg')}}" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6">
-                                <div class="testimonial-ico">
-                                    <span class="ion-ios-quote"></span>
-                                </div>
-                                <div class="testimonials-content">
-                                    <p class="testimonial-text">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea
-                                        nam praesentium
-                                        debitis hic ber quibusdam
-                                        voluptatibus officia expedita corpori.
-                                    </p>
-                                </div>
-                                <div class="testimonial-author-box">
-                                    <img src="{{asset('img/mini-testimonial-1.jpg')}}" alt=""
-                                         class="testimonial-avatar">
-                                    <h5 class="testimonial-author">Albert & Erika</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item-a">
-                    <div class="testimonials-box">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <div class="testimonial-img">
-                                    <img src="{{asset('img/testimonial-2.jpg')}}" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6">
-                                <div class="testimonial-ico">
-                                    <span class="ion-ios-quote"></span>
-                                </div>
-                                <div class="testimonials-content">
-                                    <p class="testimonial-text">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea
-                                        nam praesentium
-                                        debitis hic ber quibusdam
-                                        voluptatibus officia expedita corpori.
-                                    </p>
-                                </div>
-                                <div class="testimonial-author-box">
-                                    <img src="{{asset('img/mini-testimonial-2.jpg')}}" alt=""
-                                         class="testimonial-avatar">
-                                    <h5 class="testimonial-author">Pablo & Emma</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 @endsection
