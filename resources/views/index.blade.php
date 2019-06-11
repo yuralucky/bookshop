@@ -157,11 +157,7 @@
                             <p class="content-c">
                                 The best choice of computer literature in Ukraine: everything for programmers,
                                 webmasters, designers, Internet marketers, project managers, testers, and anyone who is
-                                involved in IT-technologies or is interested in them. Large assortment of books on
-                                electronics, electrical engineering, energy, microcontrollers, climate equipment,
-                                reference books, textbooks, monographs For beginners and professionals, from tutorials
-                                to books on highly specialized topics, bestsellers, new books in the Russian-language
-                                book market.
+                                involved in IT-technologies or is interested in them.
                             </p>
                         </div>
                         <div class="card-footer-c">

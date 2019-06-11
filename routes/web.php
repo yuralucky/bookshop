@@ -23,14 +23,13 @@ Route::get('/main', 'BookController@main');
 Route::get('shop_cart', function () {
     return view('shop_cart');
 });
-Route::get('/single', function () {
-    return view('single');
-});
+Route::get('/single', 'BookController@show');
 
-Route::get('/sortPrice','BookController@sortPrice');
-Route::get('/sortName','BookController@sortName');
-Route::get('/search','BookController@search');
-Route::post('send','BookController@send')->name('sendmail');
-Route::get('/searchlive','BookController@searchlive');
-Route::get('test','TestController@index');
-Route::post('/store','TestController@store')->name('store');
+
+Route::get('/sortPrice', 'BookController@sortPrice');
+Route::get('/sortName', 'BookController@sortName');
+Route::get('/search', 'BookController@search');
+Route::post('send', 'BookController@send')->name('sendmail');
+Route::get('/searchlive', 'BookController@searchlive');
+Route::get('test', 'TestController@index');
+Route::post('/store', 'TestController@store')->name('store');

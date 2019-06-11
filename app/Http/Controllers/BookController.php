@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Book;
 use App\Mail\DemoMail;
 use DB;
 use Illuminate\Http\Request;
@@ -64,19 +65,18 @@ class BookController extends Controller
      */
     public function search(Request $request)
     {
-        $search=$request->get('search');
-        $books=DB::table('books')->where('title','like','%'.$search.'%')
-            ->orWhere('author','like','%'.$search.'%')->paginate(15);
+        $search = $request->get('search');
+        $books = DB::table('books')->where('title', 'like', '%' . $search . '%')
+            ->orWhere('author', 'like', '%' . $search . '%')->paginate(15);
         return view('main', compact('books'));
 
     }
 
     public function searchlive(Request $request)
     {
-        if($request->ajax())
-        {
-            $search=$request->get('search');
-            $books=DB::table('books')->where('title','like','%'.$search.'%')->paginate(15);
+        if ($request->ajax()) {
+            $search = $request->get('search');
+            $books = DB::table('books')->where('title', 'like', '%' . $search . '%')->paginate(15);
             return view('main', compact('books'));
 
         }
@@ -84,10 +84,24 @@ class BookController extends Controller
 
     public function send(Request $request)
     {
-        $body=$request->message;
-        $from_email=$request->email;
-        $from_name=$request->name;
-        Mail::to('yuralucky83@gmail.com')->send(new DemoMail($body));
+        $body = $request->message;
+        $from = $request->email;
+        $name = $request->name;
+        Mail::to('yuralucky83@gmail.com')->send(new DemoMail($body, $from));
+    }
+
+    /**
+     * show single resource
+     *
+     * @param Book $book
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function show()
+    {
+        $book=Book::find(5);
+
+        return view('single', compact('book'));
+
     }
 
 
