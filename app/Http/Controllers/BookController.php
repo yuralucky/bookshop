@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Book;
+//use App\Cart;
 use App\Mail\DemoMail;
+use Cart;
+//use Darryldecode\Cart\Cart;
 use DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -11,6 +14,14 @@ use Illuminate\Support\Facades\Mail;
 
 class BookController extends Controller
 {
+
+//    private $cart;
+//
+//    public function __construct(Cart $cart)
+//    {
+//        $this->cart=$cart;
+//    }
+
     /**
      * Display a listing of the resource.
      *
@@ -19,7 +30,8 @@ class BookController extends Controller
     public function index()
     {
         $latest = DB:: table('books')->paginate(4);
-        return view('index', compact('latest'));
+        $bests=DB::table('books')->where('price','<',500)->paginate(3);
+        return view('index', compact('latest','bests'));
     }
 
     /**
@@ -98,11 +110,23 @@ class BookController extends Controller
      */
     public function show()
     {
-        $book=Book::find(5);
+        $book = Book::find(5);
 
         return view('single', compact('book'));
 
     }
 
+    public function cart()
+    {
+     $carts = Cart::getContent();
+        return view('shop_cart', compact('carts'));
+    }
+
+    public function addCart(Request $request)
+    {
+        $userId=1;
+        $g=Cart::add(3,'news',25,1);
+        dd($g);
+    }
 
 }

@@ -34,7 +34,7 @@
         </div>
     </section>
     <!--/ Intro Single End /-->
-    <!--/ Contact Star /-->
+    <!--/ Contact  /-->
     <section class="contact">
         <div class="container">
             <div class="row">
