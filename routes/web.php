@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+require 'admin.php';
 
 Route::get('/', 'BookController@index');
 Route::get('/contacts', function () {
@@ -37,4 +38,4 @@ Route::post('/store', 'TestController@store')->name('store');
 
 //admin route
 
-Route::view('/admin','admin.dashboard.index');
+//Route::view('/admin','admin.dashboard.index');
