@@ -10,17 +10,11 @@ use Cart;
 use DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 
 class BookController extends Controller
 {
-
-//    private $cart;
-//
-//    public function __construct(Cart $cart)
-//    {
-//        $this->cart=$cart;
-//    }
 
     /**
      * Display a listing of the resource.
@@ -30,8 +24,8 @@ class BookController extends Controller
     public function index()
     {
         $latest = DB:: table('books')->paginate(4);
-        $bests=DB::table('books')->where('price','<',500)->paginate(3);
-        return view('index', compact('latest','bests'));
+        $bests = DB::table('books')->where('price', '<', 500)->paginate(3);
+        return view('index', compact('latest', 'bests'));
     }
 
     /**
@@ -42,7 +36,7 @@ class BookController extends Controller
     public function main()
     {
         $books = DB::table('books')->paginate(15);
-        return view('main', compact('books'));
+        return view('books', compact('books'));
     }
 
     /**
@@ -108,25 +102,31 @@ class BookController extends Controller
      * @param Book $book
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function show()
+    public function show(Book $book)
     {
-        $book = Book::find(5);
 
         return view('single', compact('book'));
 
     }
 
+
     public function cart()
     {
-     $carts = Cart::getContent();
-        return view('shop_cart', compact('carts'));
+        $carts = Cart::getContent();
+        $total = Cart::getTotal();
+        $quantity = Cart::getTotalQuantity();
+        return view('shop_cart', compact('carts', 'total', 'quantity'));
     }
 
     public function addCart(Request $request)
     {
-        $userId=1;
-        $g=Cart::add(3,'news',25,1);
-        dd($g);
+//        dd($request);
+//        $book = Book::find(2);
+//        dd($book);
+//        $g = Cart::add($request->id, $request->title, $request->price, 1);
+        return redirect('books')->with('success', 'book added to shopping cart');
+
     }
+
 
 }
