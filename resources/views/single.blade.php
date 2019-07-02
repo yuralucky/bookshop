@@ -1,118 +1,46 @@
 @extends('layouts')
 @section('content')
-
-    <!--/ Property Single Star /-->
     <section class="intro-single">
-
-        <section class="property-single nav-arrow-b">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-sm-12">
-                        <div class="row justify-content-between">
-                            <div class="col-md-5 col-lg-4">
-                                <div class="property-price d-flex justify-content-center foo">
-                                    <div class="card-header-c d-flex">
-                                        <div class="card-title-c align-self-center">
-                                            <div class="justify-content-center">
-                                                <img src="img/book1.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="property-summary">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="title-box-d section-t4">
-                                                <h3 class="title-d">About book</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="summary-list">
-                                        <ul class="list">
-                                            <li class="d-flex justify-content-between">
-                                                <strong>Price</strong>
-                                                <span>{{$book->price}}</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <strong>Author</strong>
-                                                <span>{{$book->author}}</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <strong>Category</strong>
-                                                <span>{{$book->category}}</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <strong>Pages</strong>
-                                                <span>{{$book->pages}}</span>
-                                            </li>
-                                            <li class="d-flex justify-content-between">
-                                                <strong>Year</strong>
-                                                <span>{{$book->year}}
-                                            </li>
-
-                                        </ul>
-                                    </div>
+        <div class="container">
+            <div class="card">
+                <div class="container-fliud">
+                    <div class="wrapper row">
+                        <div class="preview col-md-6">
+                            <div class="preview-pic tab-content">
+                                <div class="tab-pane active" id="pic-1"><img src="img/agent-7.jpg"
+                                                                             style="height: 400px;width: 400px"/>
                                 </div>
                             </div>
-                            <div class="col-md-7 col-lg-7 section-md-t3">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="title-box-d">
-                                            <h3 class="title-d">Book Description</h3>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="details col-md-6">
+                            <h3 class="product-title">{{$book->title}}{{$book->id}}</h3>
+                            <h5 class="product-title">
+                                <small>Author:</small> {{$book->author}}</h5>
+                            <div class="rating">
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
                                 </div>
-                                <div class="property-description">
-                                    <p class="description color-text-a">
-                                        {{$book->description}}
-                                    </p>
-
-                                </div>
-                                <div class="row section-t3">
-                                    <div class="col-sm-12">
-                                        <div class="title-box-d">
-                                            <h3 class="title-d">Similar books</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="property-price d-flex justify-content-center foo">
-                                    <div class="card-header-c d-flex">
-                                        <div class="card-title-c align-self-center">
-                                            <div class="justify-content-center">
-                                                <img src="img/book1.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="card-header-c d-flex">
-                                        <div class="card-title-c align-self-center">
-                                            <div class="justify-content-center">
-                                                <img src="img/book1.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="card-header-c d-flex">
-                                        <div class="card-title-c align-self-center">
-                                            <div class="justify-content-center">
-                                                <img src="img/book1.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
+                                <span class="review-no">41 reviews</span>
+                            </div>
+                            <p class="product-description">{{$book->description}}</p>
+                            <h4 class="price">current price: <span>${{$book->price}}</span></h4>
+                            <p class="vote"><strong>91%</strong> of buyers enjoyed this book! <strong>(87
+                                    votes)</strong></p>
+                            <div class="action">
+                                <form action="{{route('add',$book->id)}}" method="post">
+                                    @csrf
+                                    <input type="hidden" name="id" value="{{$book->id}}">
+                                    <input type="submit" class="add-to-cart btn btn-default" value="Add ">
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-10 offset-md-1 pt-md-5">
-                        <button type="submit" class="btn btn-a btn-block">Buy</button>
-                    </div>
                 </div>
             </div>
-        </section>
-        <!--/ Property Single End /-->
+        </div>
     </section>
 @stop

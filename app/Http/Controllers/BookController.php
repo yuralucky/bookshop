@@ -4,9 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Book;
 //use App\Cart;
-use App\Mail\DemoMail;
+//use Mail;
 use Cart;
 //use Darryldecode\Cart\Cart;
+use DataTables;
 use DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -37,6 +38,23 @@ class BookController extends Controller
     {
         $books = DB::table('books')->paginate(15);
         return view('books', compact('books'));
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function getIndex()
+    {
+        return view('datatable.books');
+    }
+
+    /**
+     * @return mixed
+     * @throws \Exception
+     */
+    public function anyData()
+    {
+        return DataTables::of(Book::query())->make(true);
     }
 
     /**
@@ -74,7 +92,7 @@ class BookController extends Controller
         $search = $request->get('search');
         $books = DB::table('books')->where('title', 'like', '%' . $search . '%')
             ->orWhere('author', 'like', '%' . $search . '%')->paginate(15);
-        return view('main', compact('books'));
+        return view('books', compact('books'));
 
     }
 
@@ -88,12 +106,22 @@ class BookController extends Controller
         }
     }
 
-    public function send(Request $request)
+    public function contact()
     {
-        $body = $request->message;
-        $from = $request->email;
-        $name = $request->name;
-        Mail::to('yuralucky83@gmail.com')->send(new DemoMail($body, $from));
+        return view('contactUs');
+    }
+
+    public function contactUs(Request $request)
+    {
+        Mail::send('contactUs', array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'text' => $request->text),
+            function ($message) {
+
+                $message->to('yuralucky83@gmail.com');
+            });
+        return view('index')->with('success', 'Thanks for contacting us!');
     }
 
     /**
@@ -120,12 +148,10 @@ class BookController extends Controller
 
     public function addCart(Request $request)
     {
-//        dd($request);
-//        $book = Book::find(2);
-//        dd($book);
-//        $g = Cart::add($request->id, $request->title, $request->price, 1);
-        return redirect('books')->with('success', 'book added to shopping cart');
-
+        $id = $request->get('id');
+        $book = Book::find($id);
+        Cart::add($book->id, $book->title, $book->price, 1);
+        return back()->with('success', 'Book added');
     }
 
 

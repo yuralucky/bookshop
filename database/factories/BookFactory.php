@@ -13,7 +13,7 @@ $factory->define(Book::class, function (Faker $faker) {
         'category'=>$faker->word,
         'pages'=>rand(10,500),
         'year'=>rand(1999,2019),
-        'language'=>$faker->countryCode,
+        'language'=>$faker->country,
         'description'=>$faker->text(500),
         'price'=>rand(0.0,99.9)
     ];

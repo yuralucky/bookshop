@@ -20,22 +20,25 @@ Route::get('/image', function () {
     return view('layout1');
 });
 
-Route::get('/main', 'BookController@main');
-Route::get('shop_cart', function () {
-    return view('shop_cart');
-});
-Route::get('/single', 'BookController@show');
-Route::get('/cart','BookController@addCart');
+Route::get('/books', 'BookController@main');
+
+Route::get('/users','DataTableController@getIndex');
+Route::get('/users.data','DataTableController@anyData')->name('users.data');
+
+Route::get('/books1','BookController@getIndex');
+Route::get('/books1.data','BookController@anyData')->name('books.data');
+
+
+Route::get('/books/{book}', 'BookController@show')->name('single');
+Route::post('/cart','BookController@addCart')->name('add');
 
 Route::get('shop_cart', 'BookController@cart');
 Route::get('/sortPrice', 'BookController@sortPrice');
 Route::get('/sortName', 'BookController@sortName');
 Route::get('/search', 'BookController@search');
-Route::post('send', 'BookController@send')->name('sendmail');
+Route::get('/contactUs','BookController@contact');
+Route::post('/contactUs', 'BookController@contactUs')->name('contactUs');
 Route::get('/searchlive', 'BookController@searchlive');
-Route::get('test', 'TestController@index');
-Route::post('/store', 'TestController@store')->name('store');
 
-//admin route
 
-//Route::view('/admin','admin.dashboard.index');
+

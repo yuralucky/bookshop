@@ -1,11 +1,9 @@
-@extends('layouts')
+@extends('layouts/layouts')
 @section('content')
-
-    <!--/ Carousel Star /-->
     <div class="intro intro-carousel">
         <div id="carousel" class="owl-carousel owl-theme">
             <div class="carousel-item-a intro-item bg-image"
-                 style="background-image: url({{asset('img/sl1.jpeg')}})">
+                 style="background-image: url({{asset('img/bo.jpg')}})">
                 <div class="overlay overlay-a"></div>
                 <div class="intro-content display-table">
                     <div class="table-cell">
@@ -13,13 +11,11 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="intro-body">
-                                        <p class="intro-title-top">Doral, Florida
-                                            <br> 78345</p>
                                         <h1 class="intro-title mb-4">
                                             <span class="color-b">204 </span> Mount
                                             <br> Olive Road Two</h1>
                                         <p class="intro-subtitle intro-price">
-                                            <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                                            <a href="#"><span class="price-a">price | $ 63</span></a>
                                         </p>
                                     </div>
                                 </div>
@@ -29,7 +25,7 @@
                 </div>
             </div>
             <div class="carousel-item-a intro-item bg-image"
-                 style="background-image: url({{asset('img/sl2.jpeg')}})">
+                 style="background-image: url({{asset('img/bo2.jpg')}})">
                 <div class="overlay overlay-a"></div>
                 <div class="intro-content display-table">
                     <div class="table-cell">
@@ -37,13 +33,11 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="intro-body">
-                                        <p class="intro-title-top">Doral, Florida
-                                            <br> 78345</p>
                                         <h1 class="intro-title mb-4">
                                             <span class="color-b">204 </span> Rino
                                             <br> Venda Road Five</h1>
                                         <p class="intro-subtitle intro-price">
-                                            <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                                            <a href="#"><span class="price-a">price | $ 31</span></a>
                                         </p>
                                     </div>
                                 </div>
@@ -53,7 +47,7 @@
                 </div>
             </div>
             <div class="carousel-item-a intro-item bg-image"
-                 style="background-image: url({{asset('img/sl3.jpeg')}})">
+                 style="background-image: url({{asset('img/bo3.jpg')}})">
                 <div class="overlay overlay-a"></div>
                 <div class="intro-content display-table">
                     <div class="table-cell">
@@ -61,13 +55,12 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div class="intro-body">
-                                        <p class="intro-title-top">Doral, Florida
-                                            <br> 78345</p>
+
                                         <h1 class="intro-title mb-4">
-                                            <span class="color-b">204 </span> Alira
+                                            <span class="color-b">Best book 2019 </span> Alira
                                             <br> Roan Road One</h1>
                                         <p class="intro-subtitle intro-price">
-                                            <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                                            <a href="#"><span class="price-a">price | $ 120</span></a>
                                         </p>
                                     </div>
                                 </div>
@@ -79,7 +72,6 @@
         </div>
     </div>
     <!--/ Carousel end /-->
-
     <!--/ Advantage /-->
     <section class="section-services section-t8">
         <div class="container">
@@ -170,8 +162,7 @@
             </div>
         </div>
     </section>
-    <!--/ Advatage End /-->
-
+    <!--/ Advantage End /-->
     <!--/ Property Star /-->
     <section class="section-property section-t8">
         <div class="container">
@@ -182,7 +173,7 @@
                             <h2 class="title-a">Latest Books</h2>
                         </div>
                         <div class="title-link">
-                            <a href="/main">All Books
+                            <a href="/books">All Books
                                 <span class="ion-ios-arrow-forward"></span>
                             </a>
                         </div>
@@ -241,7 +232,6 @@
         </div>
     </section>
     <!--/ Property End /-->
-
     <!--/ Best Book /-->
     <section class="section-agents section-t8">
         <div class="container">
@@ -252,7 +242,7 @@
                             <h2 class="title-a">Best Books</h2>
                         </div>
                         <div class="title-link">
-                            <a href="/main">All books
+                            <a href="/books">All books
                                 <span class="ion-ios-arrow-forward"></span>
                             </a>
                         </div>
@@ -311,7 +301,6 @@
         </div>
     </section>
     <!--/ Best End /-->
-
     <!--/ News  /-->
     <section class="section-news section-t8">
         <div class="container">
@@ -322,7 +311,7 @@
                             <h2 class="title-a">Latest News</h2>
                         </div>
                         <div class="title-link">
-                            <a href="blog-grid.html">All News
+                            <a href="#">All News
                                 <span class="ion-ios-arrow-forward"></span>
                             </a>
                         </div>
@@ -426,5 +415,4 @@
         </div>
     </section>
     <!--/ News  /-->
-
 @endsection

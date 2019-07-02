@@ -19,4 +19,17 @@ class Book extends Model
     {
         return ucfirst($value);
     }
+
+    public static function getExcerpt(string $str)
+    {
+
+        if (strlen($str) > 50) {
+            $excerpt = substr($str, 0, 20);
+            $excerpt .= '...';
+        } else {
+            $excerpt = $str;
+        }
+        return $excerpt;
+    }
+
 }
