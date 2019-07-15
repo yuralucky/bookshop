@@ -7,7 +7,6 @@
     @include('layouts.css.css')
 
 </head>
-
 <body>
 
 @include('layouts.partial.header')
@@ -20,7 +19,6 @@
 @yield('content')
 
 @include('layouts.partial.footer')
-{{--<div id="preloader"></div>--}}
 
 @include('layouts.scripts.script')
 </body>

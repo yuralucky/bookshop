@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Book;
+
 //use App\Cart;
 //use Mail;
+use App\FeedBack;
 use Cart;
 //use Darryldecode\Cart\Cart;
 use DataTables;
@@ -29,55 +31,40 @@ class BookController extends Controller
         return view('index', compact('latest', 'bests'));
     }
 
+
     /**
      * Display all books
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function main()
+    public function allBooks()
     {
-        $books = DB::table('books')->paginate(15);
+        $books = Book::paginate(15);
         return view('books', compact('books'));
     }
 
-    /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
-    public function getIndex()
-    {
-        return view('datatable.books');
-    }
 
     /**
-     * @return mixed
-     * @throws \Exception
-     */
-    public function anyData()
-    {
-        return DataTables::of(Book::query())->make(true);
-    }
-
-    /**
-     * Display books with sort by price
+     * Display books  sort by price
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function sortPrice()
     {
         $books = DB::table('books')->orderBy('price')->paginate(15);
-        return view('main', compact('books'));
+        return view('books', compact('books'));
     }
 
 
     /**
-     * Display all books sort by name
+     * Display  books sort by name
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function sortName()
     {
         $books = DB::table('books')->orderBy('title')->paginate(15);
-        return view('main', compact('books'));
+        return view('books', compact('books'));
     }
 
 
@@ -96,32 +83,33 @@ class BookController extends Controller
 
     }
 
-    public function searchlive(Request $request)
-    {
-        if ($request->ajax()) {
-            $search = $request->get('search');
-            $books = DB::table('books')->where('title', 'like', '%' . $search . '%')->paginate(15);
-            return view('main', compact('books'));
 
-        }
-    }
-
+    /**
+     * Show contact page
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function contact()
     {
         return view('contactUs');
     }
 
+    /**
+     * Create new feedback
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function contactUs(Request $request)
     {
-        Mail::send('contactUs', array(
+
+        $book = FeedBack::updateOrCreate([
             'name' => $request->name,
             'email' => $request->email,
-            'text' => $request->text),
-            function ($message) {
-
-                $message->to('yuralucky83@gmail.com');
-            });
-        return view('index')->with('success', 'Thanks for contacting us!');
+            'subject' => $request->subject,
+            'message' => $request->message]
+        );
+        return back();
     }
 
     /**
@@ -132,12 +120,16 @@ class BookController extends Controller
      */
     public function show(Book $book)
     {
-
         return view('single', compact('book'));
-
     }
 
 
+    /**
+     *
+     * View shopping cart
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function cart()
     {
         $carts = Cart::getContent();
@@ -146,6 +138,12 @@ class BookController extends Controller
         return view('shop_cart', compact('carts', 'total', 'quantity'));
     }
 
+    /**
+     * Add book to shopping cart
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function addCart(Request $request)
     {
         $id = $request->get('id');

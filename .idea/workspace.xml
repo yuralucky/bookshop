@@ -2,100 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5846a466-1573-40a5-a7e6-7c306416f24a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/database/factories/AdminFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_06_19_073314_create_admins_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/admin-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap4-3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/dataTable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/s1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/admin-dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/feather.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.datatable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery331.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layouts.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/modal/modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/modal/userModal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contactUs.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/datatable/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/datatable/books.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/datatable/users.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/css/css.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/flash/success.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/icon/icon.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/meta/meta.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partial/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partial/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/scripts/script.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/search/search.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/modal/addModal.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/DemoMail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/post-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/post-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/post-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/post-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/post-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/post-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/post-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/bootstrap-datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/bootstrap-notify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/jquery-ui.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/jquery.vmap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/jquery.vmap.sampledata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/jquery.vmap.world.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/plugins/sweetalert.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backend/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/header.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contacts.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/errors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/flash/errors.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/admin-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/admin-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index1.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layouts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layouts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/datatable/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/datatable/books.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/datatable/users.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mail.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/shop_cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop_cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -138,11 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="100" column="48" lean-forward="true" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
@@ -150,23 +82,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataTableController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataTableController.php">
+      <file leaf-file-name="FeedBack.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/FeedBack.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactUs.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/contactUs.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-540" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_07_15_092056_create_feed_backs_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_15_092056_create_feed_backs_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#53#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/datatable/books.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -174,55 +110,7 @@
       <file leaf-file-name="books.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/books.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-860" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/datatable/users.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userModal.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/modal/userModal.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
-              <folding>
-                <element signature="e#298#305#1#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_06_03_100615_create_books_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_03_100615_create_books_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
+            <state relative-caret-position="-270" />
           </provider>
         </entry>
       </file>
@@ -246,6 +134,8 @@
       <find>auth</find>
       <find>aut</find>
       <find>lat</find>
+      <find>editE</find>
+      <find>pages</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,30 +144,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/auth.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
-        <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/cart.css" />
-        <option value="$PROJECT_DIR$/resources/views/layouts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/books.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/single.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/scripts/script.js" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/scripts/script.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/css/css.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/icon/icon.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/meta/meta.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/search/search.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/flash/success.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/partial/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contacts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contactUs.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/partial/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/q.html" />
         <option value="$PROJECT_DIR$/resources/views/shop_cart.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/admin-dashboard.css" />
         <option value="$PROJECT_DIR$/public/js/admin-dashboard.js" />
         <option value="$PROJECT_DIR$/public/js/feather.min.js" />
         <option value="$PROJECT_DIR$/public/js/bundle.min.js" />
@@ -285,14 +158,12 @@
         <option value="$PROJECT_DIR$/public/js/jquery331.js" />
         <option value="$PROJECT_DIR$/public/js/chart.min.js" />
         <option value="$PROJECT_DIR$/public/js/jquery-slim.js" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layouts/layouts.blade.php" />
         <option value="$PROJECT_DIR$/ttt.php" />
         <option value="$PROJECT_DIR$/app/Book.php" />
         <option value="$PROJECT_DIR$/database/factories/BookFactory.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/modal/modal.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/index1.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/routes/admin.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" />
         <option value="$PROJECT_DIR$/public/css/dataTable.min.css" />
@@ -300,11 +171,30 @@
         <option value="$PROJECT_DIR$/resources/views/datatable/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DataTableController.php" />
         <option value="$PROJECT_DIR$/resources/views/datatable/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/datatable/books.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/datatable/users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/modal/userModal.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/datatable/users.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/resources/views/admin/modal/addModal.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/admin.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/edit.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/admin-dashboard.css" />
+        <option value="$PROJECT_DIR$/public/js/admin.js" />
+        <option value="$PROJECT_DIR$/public/js/chart.js" />
+        <option value="$PROJECT_DIR$/public/css/fontawesome.css" />
+        <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/layouts.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_15_092056_create_feed_backs_table.php" />
+        <option value="$PROJECT_DIR$/app/FeedBack.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
       </list>
     </option>
   </component>
@@ -434,7 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -456,32 +345,41 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="datatable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -502,11 +400,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="Adm&#9;null&#9;null&#10;Mail&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/config/mail.php&#10;auth.app&#9;null&#9;null&#10;web&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/routes/web.php&#10;news&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/database/migrations/2019_06_09_173259_create_news_table.php&#10;Cart&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/resources/views/index.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="BookC&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/app/Http/Controllers/BookController.php&#10;Adm&#9;null&#9;null&#10;Mail&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/config/mail.php&#10;auth.app&#9;null&#9;null&#10;web&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/routes/web.php&#10;news&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/database/migrations/2019_06_09_173259_create_news_table.php&#10;Cart&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file:///home/yura/PhpstormProjects/untitled1/blog/resources/views/index.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Select" />
@@ -516,13 +415,6 @@
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/resources/backend/css" />
-      <recent name="$PROJECT_DIR$/resources/backend" />
-      <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/public/storage/image" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/resources/views/layouts/flash" />
@@ -530,10 +422,591 @@
       <recent name="$PROJECT_DIR$/resources/views/admin/partials" />
       <recent name="$PROJECT_DIR$/resources/views/admin/dashboard" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/resources/backend/css" />
+      <recent name="$PROJECT_DIR$/resources/backend" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/public/storage/image" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562329499000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im83STZxMTZcL0s2RXpKZ0pYNGpZM1ZRPT0iLCJ2YWx1ZSI6IjRLTmlkT3BmY2cxR3V3bDFLV2NDWm44bWp1RGxGcHpWUm9tWGVWbTNvTlpMRXI5UEVNTFM2bkRtaWlvM1lxZTIiLCJtYWMiOiJhOTI1NzJhMjRjZTYzOWYzMGI5N2UyMzRkN2Y2Yzg0Y2U5M2YxYWQ0NDNhMWMwZDU0ZWM4MGY0ZDQyMzFiODZlIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users/99" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="Gk6pb5DsWNR5mt36KR8yCDGRjJcnAbTEGBXmvMQN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="yioaofpoa" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="yu@mail.con" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="12" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="Gk6pb5DsWNR5mt36KR8yCDGRjJcnAbTEGBXmvMQN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562314669000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InpRTUFVZzhleHVIRXBmZ0lHR04wQUE9PSIsInZhbHVlIjoidmJrenU5VkNhbXU5T0xCQzZUY3IrSVwvWVhGV2FXQVRMdkxnVExXK1wvMkJycU1INDV6MXBJXC90ZXVQUUdMcFA0WSIsIm1hYyI6IjZmYjA3ZGU1MDljMGRjNmFiZDk5MTI1YzlmMDYzMmJiOWIyNmY0ZWI5ZTE3YzA1YTg2NDg3YWFiZGJhMTgzNTQifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users/99" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="Gk6pb5DsWNR5mt36KR8yCDGRjJcnAbTEGBXmvMQN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="yioaofpoa" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="yu@mail.con" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="12" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="Gk6pb5DsWNR5mt36KR8yCDGRjJcnAbTEGBXmvMQN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562311561000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlpcL2E4aGJMZEpKeEE3cTdkbXh3YlFnPT0iLCJ2YWx1ZSI6ImhNbzdYZkhTNzlMVG43ZW14ODVmam9vREhLOEpEMDhFdjd6elczXC9lcWZHUHpKOFU3QnJIdjJPMGpST1ZjUFBCIiwibWFjIjoiMGQ3ZGYwMjY4Mjc0OTY2Y2IxNWNlZWIyYjkzM2ZlMjM5NTYyMmFkNzhhMGY3YWY1NDEwZWVlNTI4MDc5ZjY4ZiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="Gk6pb5DsWNR5mt36KR8yCDGRjJcnAbTEGBXmvMQN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="yioaofpoa" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="yu@mail.con" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="12" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="Gk6pb5DsWNR5mt36KR8yCDGRjJcnAbTEGBXmvMQN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562311413000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkpuNXhVSTdKMUNVRmEwVFdsSFpUa0E9PSIsInZhbHVlIjoiT0FCRzFtRG1wakJmMmF5Q3hNYlNiVjhGQVRIenMwOHZ3UFQ1U21JSmFNUmtiVDRsMDlCRCt6Zk0wMmMwQVFocyIsIm1hYyI6IjM4YTFmZjhhNzEwOWQxNzZkYTNkNGMwMWNiZWNhYWU5ZjcwOTg3NTI1NThkOTgxMDlhM2M1MGYwYTVjOGViMGUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="Gk6pb5DsWNR5mt36KR8yCDGRjJcnAbTEGBXmvMQN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="yioaofpoa" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="yu@mail.con" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="12" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562255085000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImpCZzcwT2xXZTJKd25hczlDUmc1dEE9PSIsInZhbHVlIjoiZHhPQ3JlU2tJeFwvRTB1SFJGVUl1ZElYMldTTnBWRHNaVlBqbmJHUnpYN2dVdjUyZVpnNnJVXC9HeU01MThLK1JVIiwibWFjIjoiZmZkZjg4MDQ1NWViYTViOGVhYzljMjZkZmM3NDA3ZWNkMTViOWFkMmMyMjU5NGJmYjA1ZGMxZTA5MjdkY2VmYiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="yioaofpoa" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="yu@mail.con" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="12" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562255085000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImpCZzcwT2xXZTJKd25hczlDUmc1dEE9PSIsInZhbHVlIjoiZHhPQ3JlU2tJeFwvRTB1SFJGVUl1ZElYMldTTnBWRHNaVlBqbmJHUnpYN2dVdjUyZVpnNnJVXC9HeU01MThLK1JVIiwibWFjIjoiZmZkZjg4MDQ1NWViYTViOGVhYzljMjZkZmM3NDA3ZWNkMTViOWFkMmMyMjU5NGJmYjA1ZGMxZTA5MjdkY2VmYiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="y" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="yu@mail.con" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="12" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562255085000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImpCZzcwT2xXZTJKd25hczlDUmc1dEE9PSIsInZhbHVlIjoiZHhPQ3JlU2tJeFwvRTB1SFJGVUl1ZElYMldTTnBWRHNaVlBqbmJHUnpYN2dVdjUyZVpnNnJVXC9HeU01MThLK1JVIiwibWFjIjoiZmZkZjg4MDQ1NWViYTViOGVhYzljMjZkZmM3NDA3ZWNkMTViOWFkMmMyMjU5NGJmYjA1ZGMxZTA5MjdkY2VmYiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/users/5" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562255085000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImpCZzcwT2xXZTJKd25hczlDUmc1dEE9PSIsInZhbHVlIjoiZHhPQ3JlU2tJeFwvRTB1SFJGVUl1ZElYMldTTnBWRHNaVlBqbmJHUnpYN2dVdjUyZVpnNnJVXC9HeU01MThLK1JVIiwibWFjIjoiZmZkZjg4MDQ1NWViYTViOGVhYzljMjZkZmM3NDA3ZWNkMTViOWFkMmMyMjU5NGJmYjA1ZGMxZTA5MjdkY2VmYiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/users/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562251724000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlNkbG0wZG5ac2t5K2M1YUtPZlJwclE9PSIsInZhbHVlIjoiSmRtN1F1TXk5ZzluQ0pQc0lpQjlmdDhiYTBCejVtNGNqZXVESSs2VDlnMHZLT2pLeWM1K3JNOVNcLzN4WnpkUEwiLCJtYWMiOiIwZGVmMzFkYTEzNzgwMDM1N2E3ZjNlYzBiMGI3YWYyNmQwMzBiYzJjNTU1YmExNTM1YWMxZmZhYjVlZTIyOTAxIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1562251615000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ikd6d2RiV25tMzFnZXNsSzJ6eEkwbEE9PSIsInZhbHVlIjoiNTZ4MlZKVnZCZUdIYWYreUxhZHQyYWNmVXBSdG52WENWUmEzYVZqMDNqTFo5cFwvRlE3SXptYkNoK1kzVUw0WUoiLCJtYWMiOiJlODc4OGIyOGIzZjkwNGM5NTM3ZmVhNmU2MzI4ZWEzN2EwN2NhODczMzhmZTdkMzMwNzZjOWYzZDkzYzcyZGNlIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users/9" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlZhamQ0NTZRRVozTEZsUXJwMVozNWc9PSIsInZhbHVlIjoiRkZDZzJQRVpBY1d1R1NkKzg3S1prSHhoU3N4U3dsd1JzZmEyTGVTdkVoOFdsZGN4OERZaEF2SHl2VUMyd0FqaiIsIm1hYyI6ImIwYzYzZTZhOWNhNGJmY2ZiNjBlYjBlZDU2OTIwZThhZTE2ZTFmZjBmOWU2NzRlODljNTQxNWFmNjljOTY0ZDMifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561900768000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlRQM1lTRWVTcitBdHdtT0hrcGZtQ2c9PSIsInZhbHVlIjoibW5sdXplbjRcL2dlVFN6YWpzRVdcL05kVlZxbGp4bzF2UXpER2NzQk5rNENRQTFIdkJvWENqWEZcL2I3NlR0Y1YzRiIsIm1hYyI6ImExZmQ0ZjUyN2I3Y2E2MmRjNWJjOWUzNGQ0YzMzMjllNjRkOWYxMjkzZGE0YmIwNjExYTljNTljYmJmODRhOGMifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/admin/users/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="csrf" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -1245,7 +1718,9 @@
       <workItem from="1561710104593" duration="41105000" />
       <workItem from="1561877070602" duration="20790000" />
       <workItem from="1561907309793" duration="3914000" />
-      <workItem from="1561957839706" duration="13245000" />
+      <workItem from="1561957839706" duration="62101000" />
+      <workItem from="1562584361007" duration="25196000" />
+      <workItem from="1562746408181" duration="34150000" />
     </task>
     <task id="LOCAL-00001" summary="frontend commit">
       <created>1559565217587</created>
@@ -1268,11 +1743,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561744988610</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Datatable">
+      <created>1562074733612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562074733612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271042000" />
+    <option name="totallyTimeSpent" value="379244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1286,17 +1768,16 @@
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17878787" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5022727" side_tool="true" weight="0.32676518" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50454545" side_tool="true" weight="0.32512316" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924242" weight="0.32840723" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49772727" visible="true" weight="0.32676518" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17348485" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49545455" visible="true" weight="0.32512316" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1307,6 +1788,7 @@
       <window_info anchor="bottom" id="REST Client" order="8" weight="0.49917898" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1319,158 +1801,15 @@
     <MESSAGE value="frontend commit" />
     <MESSAGE value="add admin route" />
     <MESSAGE value="cart 80%" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart 80%" />
+    <MESSAGE value="add Datatable" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Datatable" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Mail/DemoMail.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/scripts/script.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/flash/success.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contactUs.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="6" lean-forward="true" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/q.html" />
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/feather.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bundle.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shop_cart.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap4-3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/layouts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
-    <entry file="file://$PROJECT_DIR$/public/css/admin-dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery331.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="1" column="69627" selection-start-line="1" selection-start-column="69627" selection-end-line="1" selection-end-column="69627" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/admin-dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chart.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="9" column="158541" selection-start-line="9" selection-start-column="158541" selection-end-line="9" selection-end-column="158541" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery-slim.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="1" column="69627" selection-start-line="1" selection-start-column="69627" selection-end-line="1" selection-end-column="69627" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_09_173259_create_news_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_19_073314_create_admins_table.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ttt.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1502,34 +1841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index1.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/layouts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/dataTable.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1541,66 +1852,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="159" column="229" selection-start-line="159" selection-start-column="229" selection-end-line="159" selection-end-column="229" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0596690c-90ee-47aa-a6d5-0789418efec7/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#46#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/datatable/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataTableController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/datatable/app.blade.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_03_100615_create_books_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1615,32 +1873,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/books.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-860" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/datatable/books.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/admin/modal/userModal.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
+          <caret line="24" column="98" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index1.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/datatable/users.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataTableController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-06-13.log" />
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-07-05.log" />
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/modal/addModal.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/layouts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1556">
+          <caret line="275" column="92" selection-start-line="275" selection-start-column="92" selection-end-line="275" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-07-07.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="854" selection-start-line="6" selection-start-column="854" selection-end-line="6" selection-end-column="854" />
           <folding>
-            <element signature="e#298#305#1#HTML" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/datatable/books.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="90">
+          <caret line="6" column="156464" selection-start-line="6" selection-start-column="156464" selection-end-line="6" selection-end-column="156464" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/datatable/users.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/css/fontawesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="4" column="55782" selection-start-line="4" selection-start-column="55782" selection-end-line="4" selection-end-column="55782" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/admin-dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24480">
+          <caret line="9" column="197487" lean-forward="true" selection-start-line="9" selection-start-column="197487" selection-end-line="9" selection-end-column="197487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="9" column="158541" selection-start-line="9" selection-start-column="158541" selection-end-line="9" selection-end-column="158541" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/layouts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="63" lean-forward="true" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+          <folding>
+            <element signature="e#24106#24840#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#112#17144#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/books.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_15_092056_create_feed_backs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contactUs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/FeedBack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="e#46#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="100" column="48" lean-forward="true" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

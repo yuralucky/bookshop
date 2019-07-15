@@ -13,20 +13,14 @@
 require 'admin.php';
 
 Route::get('/', 'BookController@index');
-Route::get('/contacts', function () {
-    return view('contacts');
-});
-Route::get('/image', function () {
-    return view('layout1');
-});
+//Route::get('/contacts', 'BookController@contact');
+Route::get('/books', 'BookController@allBooks');
 
-Route::get('/books', 'BookController@main');
-
-Route::get('/users','DataTableController@getIndex');
-Route::get('/users.data','DataTableController@anyData')->name('users.data');
-
-Route::get('/books1','BookController@getIndex');
-Route::get('/books1.data','BookController@anyData')->name('books.data');
+//Route::get('/users','DataTableController@getIndex');
+//Route::get('/users.data','DataTableController@anyData')->name('users.data');
+//
+//Route::get('/books1','BookController@getIndex');
+//Route::get('/books1.data','BookController@anyData')->name('books.data');
 
 
 Route::get('/books/{book}', 'BookController@show')->name('single');

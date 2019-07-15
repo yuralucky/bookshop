@@ -1,4 +1,4 @@
-@extends('layouts')
+@extends('layouts.layouts')
 @section('content')
     <section class="intro-single">
         <div class="container">
@@ -13,7 +13,7 @@
                             </div>
                         </div>
                         <div class="details col-md-6">
-                            <h3 class="product-title">{{$book->title}}{{$book->id}}</h3>
+                            <h3 class="product-title">{{$book->title}}</h3>
                             <h5 class="product-title">
                                 <small>Author:</small> {{$book->author}}</h5>
                             <div class="rating">

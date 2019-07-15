@@ -199,7 +199,7 @@
                                         <div class="price-box d-flex">
                                             <span class="price-a">price | $ {{$value->price}}</span>
                                         </div>
-                                        <a href="/single" class="link-a">Click here to view
+                                        <a href="{{route('single',$value->id)}}" class="link-a">Click here to view
                                             <span class="ion-ios-arrow-forward"></span>
                                         </a>
                                     </div>
@@ -268,7 +268,7 @@
                                         <div class="price-box d-flex">
                                             <span class="price-a">price | $ {{$best->price}}</span>
                                         </div>
-                                        <a href="/single" class="link-a">Click here to view
+                                        <a href="{{route('single',$best->id)}}" class="link-a">Click here to view
                                             <span class="ion-ios-arrow-forward"></span>
                                         </a>
                                     </div>
