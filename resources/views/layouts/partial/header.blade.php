@@ -29,7 +29,7 @@
                     <a class="nav-link" href="/contactUs">Contact</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/shop_cart"><i class="fa fa-shopping-cart" aria-hidden="true"><span class="badge badge-light">{{Cart::getTotalQuantity()}}</span></i></a>
+                    <a class="nav-link" href="/cart"><i class="fa fa-shopping-cart" aria-hidden="true"><span class="badge badge-light">{{Cart::getTotalQuantity()}}</span></i></a>
                 </li>
             </ul>
         </div>

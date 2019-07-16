@@ -7,6 +7,7 @@ use App\Book;
 //use App\Cart;
 //use Mail;
 use App\FeedBack;
+use App\Order;
 use Cart;
 //use Darryldecode\Cart\Cart;
 use DataTables;
@@ -95,6 +96,33 @@ class BookController extends Controller
     }
 
     /**
+     * Show delivery page
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function delivery()
+    {
+        return view('delivery');
+    }
+
+    public function confirmOrder(Request $request)
+    {
+        $total = $request->total;
+        return view('confirmOrder', compact('total'));
+    }
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function createOrder(Request $request)
+    {
+        Order::create($request->all());
+        return redirect(route('main'));
+
+    }
+
+    /**
      * Create new feedback
      *
      * @param Request $request
@@ -104,10 +132,10 @@ class BookController extends Controller
     {
 
         $book = FeedBack::updateOrCreate([
-            'name' => $request->name,
-            'email' => $request->email,
-            'subject' => $request->subject,
-            'message' => $request->message]
+                'name' => $request->name,
+                'email' => $request->email,
+                'subject' => $request->subject,
+                'message' => $request->message]
         );
         return back();
     }

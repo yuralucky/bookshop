@@ -72,7 +72,11 @@
                 </tr>
                 </tfoot>
             </table>
-            <button type="submit" class="btn-block btn btn-success">Сheckout</button>
+        <form action="{{route('order')}}">
+            <input type="hidden" name="total" value="{{$total}}">
+            <input type="submit" class="btn-block btn btn-success" value="Confirm order">
+        </form>
+            {{--<a href="" type="submit" class="btn-block btn btn-success"></a>--}}
         @endif
     </div> <!-- card.// -->
 @endsection
