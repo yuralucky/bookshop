@@ -7,7 +7,7 @@
                     <div class="wrapper row">
                         <div class="preview col-md-6">
                             <div class="preview-pic tab-content">
-                                <div class="tab-pane active" id="pic-1"><img src="img/agent-7.jpg"
+                                <div class="tab-pane active" id="pic-1"><img src="{{asset($book->image)}}"
                                                                              style="height: 400px;width: 400px"/>
                                 </div>
                             </div>

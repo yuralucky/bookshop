@@ -20,6 +20,7 @@ class CreateBooksTable extends Migration
             $table->string('ISBN');
             $table->string('category');
             $table->smallInteger('pages');
+            $table->string('image')->default('img/book2.jpeg');
             $table->year('year');
             $table->string('language');
             $table->text('description');

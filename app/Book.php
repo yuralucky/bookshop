@@ -15,6 +15,10 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Book extends Model
 {
+    protected $fillable=['title','author','ISBN','category',
+        'pages','image','year','language','description','price'];
+
+
     public function getNameAttribute($value)
     {
         return ucfirst($value);

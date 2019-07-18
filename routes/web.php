@@ -12,22 +12,22 @@
 */
 require 'admin.php';
 
-Route::get('/', 'BookController@index')->name('main');
-//Route::get('/contacts', 'BookController@contact');
-Route::get('/books', 'BookController@allBooks');
-Route::get('/delivery', 'BookController@delivery');
-Route::get('/cart/confirmOrder','BookController@confirmOrder')->name('order');
-Route::post('/cart/confirmOrder','BookController@createOrder')->name('createOrder');
+Route::get('/', 'MainController@index')->name('main');
+//Route::get('/contacts', 'MainController@contact');
+Route::get('/books', 'MainController@allBooks');
+Route::get('/delivery', 'MainController@delivery');
+Route::get('/cart/confirmOrder','MainController@confirmOrder')->name('order');
+Route::post('/cart/confirmOrder','MainController@createOrder')->name('createOrder');
 
-Route::get('/books/{book}', 'BookController@show')->name('single');
-Route::post('/cart','BookController@addCart')->name('add');
+Route::get('/books/{book}', 'MainController@show')->name('single');
+Route::post('/cart','MainController@addCart')->name('add');
 
-Route::get('/cart', 'BookController@cart');
-Route::get('/sortPrice', 'BookController@sortPrice');
-Route::get('/sortName', 'BookController@sortName');
-Route::get('/search', 'BookController@search');
-Route::get('/contactUs','BookController@contact');
-Route::post('/contactUs', 'BookController@contactUs')->name('contactUs');
+Route::get('/cart', 'MainController@cart');
+Route::get('/sortPrice', 'MainController@sortPrice');
+Route::get('/sortName', 'MainController@sortName');
+Route::get('/search', 'MainController@search');
+Route::get('/contactUs','MainController@contact');
+Route::post('/contactUs', 'MainController@contactUs')->name('contactUs');
 
 
 

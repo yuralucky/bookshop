@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
 
-class BookController extends Controller
+class MainController extends Controller
 {
 
     /**
@@ -27,9 +27,9 @@ class BookController extends Controller
      */
     public function index()
     {
-        $latest = DB:: table('books')->paginate(4);
+        $latests = DB:: table('books')->paginate(4);
         $bests = DB::table('books')->where('price', '<', 500)->paginate(3);
-        return view('index', compact('latest', 'bests'));
+        return view('index', compact('latests', 'bests'));
     }
 
 

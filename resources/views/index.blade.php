@@ -181,11 +181,11 @@
                 </div>
             </div>
             <div id="property-carousel" class="owl-carousel owl-theme">
-                @foreach($latest as $value)
+                @foreach($latests as $value)
                     <div class="carousel-item-b">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
-                                <img src="img/book2.jpeg" alt="" class="img-a img-fluid">
+                                <img src="{{asset($value->image)}}" alt="" class="img-a img-fluid">
                             </div>
                             <div class="card-overlay">
                                 <div class="card-overlay-a-content">
@@ -254,7 +254,7 @@
                     <div class="col-md-4">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
-                                <img src="img/book2.jpeg" alt="" class="img-a img-fluid">
+                                <img src="{{$best->image}}" alt="" class="img-a img-fluid">
                             </div>
                             <div class="card-overlay">
                                 <div class="card-overlay-a-content">

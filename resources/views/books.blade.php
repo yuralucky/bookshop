@@ -47,7 +47,7 @@
                     <div class="col-md-4">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
-                                <img src="img/book2.jpeg" alt="" class="img-a img-fluid">
+                                <img src="{{asset($book->image)}}" alt="" class="img-a img-fluid">
                             </div>
                             <div class="card-overlay">
                                 <div class="card-overlay-a-content">

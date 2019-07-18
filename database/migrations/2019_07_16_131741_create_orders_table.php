@@ -22,6 +22,7 @@ class CreateOrdersTable extends Migration
             $table->string('country');
             $table->string('delivery')->default('prime');
             $table->string('street')->default('');
+            $table->boolean('ready')->default(0);
             $table->smallInteger('apartment')->default(0);
             $table->smallInteger('total')->default(0);
             $table->timestamps();
