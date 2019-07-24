@@ -29,7 +29,7 @@
                                 <th><input type="checkbox" class="form-control" name="ready"
                                            value="{{$order->ready}}"></th>
                                 <th>
-                                    <form action="{{route('feedback.destroy',$order->id)}}" method="post">
+                                    <form action="{{route('orders.destroy',$order->id)}}" method="post">
                                         @csrf
                                         @method('delete')
                                         <input type="hidden" name="id" value="{{$order->id}}">
